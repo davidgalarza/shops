@@ -1,0 +1,60 @@
+page-order {
+    .toolbar-background-md, .toolbar-background-ios{
+        background: $main !important;
+    }
+      .segment-md .segment-button{
+          border-bottom-color: #FFFFFF !important;
+          color: #FFFFFF !important;
+      }
+      .toolbar-title-md{
+          color: #FFFFFF;
+      }
+      .headerD{
+          background-color: $main;
+          width: 100%;
+          height: 4em;
+      }
+      .iconB{
+          width: 3em;
+          margin: 0.5em;
+      }
+      .status{
+          font-size: 1.2em;
+
+          color: #FFFFFF;
+          display: inline-block;
+          height: 2em;
+          position: absolute
+      }
+      .detailT{
+          color: #000000;
+          font-size: 1em;
+      }
+      .acceptB{
+        background-color: $green;
+        width: 40%;
+      }
+      .refuseB{
+          background-color: $main;
+          width: 40%;
+      }
+      .buttonsC{
+        text-align: center;
+      }
+      ion-footer{
+          height: 4em;
+      }
+      .billI{
+        position: relative;
+        float: right;
+        right: 0.5em;
+        font-size: 2em;
+        color: #FFFFFF;
+      }
+      .bar-button-default-ios{
+        color: #FFFFFF !important;
+      }
+      .toolbar-title-ios{
+        color: #FFFFFF !important;
+      }
+}

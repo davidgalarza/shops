@@ -1,5 +1,69 @@
 // http://ionicframework.com/docs/theming/
 
+$main: #ed5a5f;
+$green: #00a083;
+$background: #ECECEC;
+@font-face {
+  font-family: 'Trueno';
+  src: url('../assets/fonts/trueno/TruenoBd.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nexa';
+  src: url('../assets/fonts/nexa/Nexa Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+.footer-md::before{
+    top:initial;
+}
+
+.headerC{
+    margin: 1em 1em;
+  }
+  .logoH{
+    display: inline-block;
+    width: 7em;
+  }
+  .toolbar-background-md{
+    background-color: $main;
+  }
+  .headerG{
+      text-align: center;
+  }
+  .scroll-content {
+    overflow-y: auto !important;
+ }
+ .sidemenuC{
+  
+     background-color: $main;
+ }
+ .itemSide{
+     background-color: $main;
+     color: #FFFFFF;
+     border-bottom: none;
+     font-weight: bold;
+     font-family: 'Trueno';
+ }
+ .list-md .item-block .item-inner {
+     border-bottom: none;
+     }
+ion-menu{
+  ion-header{
+    z-index: initial;  // desapear the header shadown
+    text-align: center;
+}
+
+}
+.toolbar-background-ios{
+  
+  background: #ed5a5f !important;
+}
+.header-ios .toolbar-background-ios{
+  border:  none !important;
+}
+  
 
 // App Global Sass
 // --------------------------------------------------
